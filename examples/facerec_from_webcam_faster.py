@@ -15,21 +15,33 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
-obama_image = face_recognition.load_image_file("obama.jpg")
-obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
+#obama_image = face_recognition.load_image_file("obama.jpg")
+#obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
-biden_image = face_recognition.load_image_file("biden.jpg")
-biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
+#biden_image = face_recognition.load_image_file("biden.jpg")
+#biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
+
+# Load a sample picture and learn how to recognize it.
+fb_image = face_recognition.load_image_file("fb2.png")
+fb_face_encoding = face_recognition.face_encodings(fb_image)[0]
+
+# Load a second sample picture and learn how to recognize it.
+lj_image = face_recognition.load_image_file("lj2.png")
+lj_face_encoding = face_recognition.face_encodings(lj_image)[0]
 
 # Create arrays of known face encodings and their names
 known_face_encodings = [
-    obama_face_encoding,
-    biden_face_encoding
+    #obama_face_encoding,
+    #biden_face_encoding,
+    fb_face_encoding,
+    lj_face_encoding
 ]
 known_face_names = [
-    "Barack Obama",
-    "Joe Biden"
+    #"Barack Obama",
+    #"Joe Biden",
+	"FengBo",
+	"LinJie"
 ]
 
 # Initialize some variables
