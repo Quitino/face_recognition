@@ -2,24 +2,15 @@
 
 > 译者注：
 >
-> 本项目[face_recognition](https://github.com/ageitgey/face_recognition)是一个强大、简单、易上手的人脸识别开源项目，并且配备了完整的开发文档和应用案例，特别是兼容树莓派系统。
->
-> 为了便于中国开发者研究学习人脸识别、贡献代码，我将本项目README文件翻译成中文。
->
-> 向本项目的所有贡献者致敬。
->
-> 英译汉：同济大学开源软件协会 [子豪兄Tommy](https://github.com/TommyZihao)
+> 本项目[face_recognition](https://github.com/Quitino/face_recognition)是一个强大、简单、易上手的人脸识别开源项目，并且配备了完整的开发文档和应用案例，特别是兼容树莓派系统。
 >
 > Translator's note:
 >
-> [face_recognition](https://github.com/ageitgey/face_recognition) is a powerful, simple and easy-to-use face recognition open source project with complete development documents and application cases, especially it is compatible with Raspberry Pi.
+> [face_recognition](https://github.com/Quitino/face_recognition) is a powerful, simple and easy-to-use face recognition open source project with complete development documents and application cases, especially it is compatible with Raspberry Pi.
 >
 > In order to facilitate Chinese software developers to learn, make progress in face recognition development and source code contributions, I translated README file into simplified Chinese.
 >
 > Salute to all contributors to this project.
->
-> Translator: Tommy in Tongji Univerisity Opensource Association  [子豪兄Tommy](https://github.com/TommyZihao)
-
 
 
 本项目是世界上最简洁的人脸识别库，你可以使用Python和命令行工具提取、识别、操作人脸。
