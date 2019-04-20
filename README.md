@@ -231,7 +231,7 @@ face_locations = face_recognition.face_locations(image)
 # face_locations is now an array listing the co-ordinates of each face!
 ```
 
-看 [案例：定位拜登的脸](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture.py)
+看 [案例：定位拜登的脸](https://github.com/Quitino/face_recognition/blob/master/examples/find_faces_in_picture.py)
 
 ![案例：定位拜登的脸](https://upload-images.jianshu.io/upload_images/13714448-b4ce08c6ba699c5e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -248,9 +248,9 @@ face_locations = face_recognition.face_locations(image, model="cnn")
 # face_locations is now an array listing the co-ordinates of each face!
 ```
 
-看 [案例：使用卷积神经网络深度学习模型定位拜登的脸](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py)
+看 [案例：使用卷积神经网络深度学习模型定位拜登的脸](https://github.com/Quitino/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py)
 
-如果你有很多图片需要识别，同时又有GPU，那么你可以参考这个例子：[案例：使用卷积神经网络深度学习模型批量识别图片中的人脸](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_batches.py).
+如果你有很多图片需要识别，同时又有GPU，那么你可以参考这个例子：[案例：使用卷积神经网络深度学习模型批量识别图片中的人脸](https://github.com/Quitino/face_recognition/blob/master/examples/find_faces_in_batches.py).
 
 ##### 识别单张图片中人脸的关键点
 
@@ -264,7 +264,7 @@ face_landmarks_list = face_recognition.face_landmarks(image)
 # face_landmarks_list[0]['left_eye'] would be the location and outline of the first person's left eye.
 ```
 
-看这个案例 [案例：提取奥巴马和拜登的面部关键点](https://github.com/ageitgey/face_recognition/blob/master/examples/find_facial_features_in_picture.py)
+看这个案例 [案例：提取奥巴马和拜登的面部关键点](https://github.com/Quitino/face_recognition/blob/master/examples/find_facial_features_in_picture.py)
 ![案例：提取奥巴马和拜登的面部关键点](https://upload-images.jianshu.io/upload_images/13714448-734e8b4f5592ed4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ##### 识别图片中的人是谁
@@ -290,35 +290,35 @@ else:
     print("It's not a picture of me!")
 ```
 
-看这个案例 [案例：是奥巴马还是拜登？](https://github.com/ageitgey/face_recognition/blob/master/examples/recognize_faces_in_pictures.py)
+看这个案例 [案例：是奥巴马还是拜登？](https://github.com/Quitino/face_recognition/blob/master/examples/recognize_faces_in_pictures.py)
 
 ## Python 案例
 
-所有案例都在这个链接中 [也就是examples文件夹](https://github.com/ageitgey/face_recognition/tree/master/examples).
+所有案例都在这个链接中 [也就是examples文件夹](https://github.com/Quitino/face_recognition/tree/master/examples).
 
 #### 人脸定位
 
-- [案例：定位拜登的脸](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture.py)
-- [案例：使用卷积神经网络深度学习模型定位拜登的脸](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py)
-- [案例：使用卷积神经网络深度学习模型批量识别图片中的人脸](https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_batches.py)
-- [案例：把来自网络摄像头视频里的人脸高斯模糊（需要安装OpenCV）](https://github.com/ageitgey/face_recognition/blob/master/examples/blur_faces_on_webcam.py)
+- [案例：定位拜登的脸](https://github.com/Quitino/face_recognition/blob/master/examples/find_faces_in_picture.py)
+- [案例：使用卷积神经网络深度学习模型定位拜登的脸](https://github.com/Quitino/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py)
+- [案例：使用卷积神经网络深度学习模型批量识别图片中的人脸](https://github.com/Quitino/face_recognition/blob/master/examples/find_faces_in_batches.py)
+- [案例：把来自网络摄像头视频里的人脸高斯模糊（需要安装OpenCV）](https://github.com/Quitino/face_recognition/blob/master/examples/blur_faces_on_webcam.py)
 
 #### 人脸关键点识别
 
-- [案例：提取奥巴马和拜登的面部关键点](https://github.com/ageitgey/face_recognition/blob/master/examples/find_facial_features_in_picture.py)
+- [案例：提取奥巴马和拜登的面部关键点](https://github.com/Quitino/face_recognition/blob/master/examples/find_facial_features_in_picture.py)
 - [案例：给美国副总统拜登涂美妆](https://github.com/ageitgey/face_recognition/blob/master/examples/digital_makeup.py)
 
 #### 人脸识别
 
-- [案例：是奥巴马还是拜登？](https://github.com/ageitgey/face_recognition/blob/master/examples/recognize_faces_in_pictures.py)
-- [案例：人脸识别之后在原图上画框框并标注姓名](https://github.com/ageitgey/face_recognition/blob/master/examples/identify_and_draw_boxes_on_faces.py)
-- [案例：在不同精度上比较两个人脸是否属于一个人](https://github.com/ageitgey/face_recognition/blob/master/examples/face_distance.py)
-- [案例：从摄像头获取视频进行人脸识别-较慢版（需要安装OpenCV）](https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam.py)
-- [案例：从摄像头获取视频进行人脸识别-较快版（需要安装OpenCV）](https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py)
-- [案例：从视频文件中识别人脸并把识别结果输出为新的视频文件（需要安装OpenCV）](https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_video_file.py)
-- [案例：通过树莓派摄像头进行人脸个数统计及人脸身份识别](https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_on_raspberry_pi.py)
-- [案例：通过浏览器HTTP访问网络服务器进行人脸识别（需要安装Flask后端开发框架）)](https://github.com/ageitgey/face_recognition/blob/master/examples/web_service_example.py)
-- [案例：基于K最近邻KNN分类算法进行人脸识别](https://github.com/ageitgey/face_recognition/blob/master/examples/face_recognition_knn.py)
+- [案例：是奥巴马还是拜登？](https://github.com/Quitino/face_recognition/blob/master/examples/recognize_faces_in_pictures.py)
+- [案例：人脸识别之后在原图上画框框并标注姓名](https://github.com/Quitino/face_recognition/blob/master/examples/identify_and_draw_boxes_on_faces.py)
+- [案例：在不同精度上比较两个人脸是否属于一个人](https://github.com/Quitino/face_recognition/blob/master/examples/face_distance.py)
+- [案例：从摄像头获取视频进行人脸识别-较慢版（需要安装OpenCV）](https://github.com/Quitino/face_recognition/blob/master/examples/facerec_from_webcam.py)
+- [案例：从摄像头获取视频进行人脸识别-较快版（需要安装OpenCV）](https://github.com/Quitino/face_recognition/blob/master/examples/facerec_from_webcam_faster.py)
+- [案例：从视频文件中识别人脸并把识别结果输出为新的视频文件（需要安装OpenCV）](https://github.com/Quitino/face_recognition/blob/master/examples/facerec_from_video_file.py)
+- [案例：通过树莓派摄像头进行人脸个数统计及人脸身份识别](https://github.com/Quitino/face_recognition/blob/master/examples/facerec_on_raspberry_pi.py)
+- [案例：通过浏览器HTTP访问网络服务器进行人脸识别（需要安装Flask后端开发框架）)](https://github.com/Quitino/face_recognition/blob/master/examples/web_service_example.py)
+- [案例：基于K最近邻KNN分类算法进行人脸识别](https://github.com/Quitino/face_recognition/blob/master/examples/face_recognition_knn.py)
 
 ## 关于 `face_recognition`的文章和教程
 
@@ -340,7 +340,7 @@ else:
 ## 警告说明
 
 - 本项目的人脸识别模型是基于成年人的，在孩子身上效果可能一般。如果图片中有孩子的话，建议把临界值设为0.6.
-- 不同人种的识别结果可能不同， [看wiki百科页面](https://github.com/ageitgey/face_recognition/wiki/Face-Recognition-Accuracy-Problems#question-face-recognition-works-well-with-european-individuals-but-overall-accuracy-is-lower-with-asian-individuals) 查看更多细节。
+- 不同人种的识别结果可能不同， [看wiki百科页面](https://github.com/Quitino/face_recognition/wiki/Face-Recognition-Accuracy-Problems#question-face-recognition-works-well-with-european-individuals-but-overall-accuracy-is-lower-with-asian-individuals) 查看更多细节。
 
 ## 把本项目部署在云服务器上 (Heroku, AWS等)
 
@@ -350,7 +350,7 @@ else:
 
 ## 出了幺蛾子？
 
-如果出了问题，请在Github提交Issue之前查看 [常见错误](https://github.com/ageitgey/face_recognition/wiki/Common-Errors) 。
+如果出了问题，请在Github提交Issue之前查看 [常见错误](https://github.com/Quitino/face_recognition/wiki/Common-Errors) 。
 
 ## 鸣谢
 
